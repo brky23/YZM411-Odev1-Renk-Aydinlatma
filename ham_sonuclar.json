@@ -1,0 +1,176 @@
+{
+  "mode": "demo_synthetic",
+  "shape": "(1024, 1536, 3)",
+  "dtype": "uint8",
+  "minmax": [
+    0,
+    255
+  ],
+  "masks": {
+    "RGB": {
+      "normal": {
+        "count": 203113,
+        "percent": 12.91357676188151
+      },
+      "shadow": {
+        "count": 0,
+        "percent": 0.0
+      },
+      "lamp": {
+        "count": 431266,
+        "percent": 27.419153849283855
+      }
+    },
+    "HSV": {
+      "normal": {
+        "count": 362983,
+        "percent": 23.077837626139324
+      },
+      "shadow": {
+        "count": 221381,
+        "percent": 14.075024922688803
+      },
+      "lamp": {
+        "count": 246073,
+        "percent": 15.64490000406901
+      }
+    }
+  },
+  "pixels": [
+    {
+      "x": 700,
+      "y": 835,
+      "normal": [
+        252,
+        203,
+        4
+      ],
+      "shadow": [
+        125,
+        113,
+        4
+      ],
+      "lamp": [
+        255,
+        204,
+        3
+      ]
+    },
+    {
+      "x": 850,
+      "y": 875,
+      "normal": [
+        240,
+        190,
+        2
+      ],
+      "shadow": [
+        120,
+        107,
+        2
+      ],
+      "lamp": [
+        255,
+        190,
+        2
+      ]
+    },
+    {
+      "x": 950,
+      "y": 900,
+      "normal": [
+        193,
+        137,
+        2
+      ],
+      "shadow": [
+        97,
+        78,
+        2
+      ],
+      "lamp": [
+        249,
+        136,
+        2
+      ]
+    }
+  ],
+  "transforms": {
+    "normal": 148.4929485321045,
+    "b40": 186.3086755540636,
+    "g05": 187.56836043463812,
+    "g20": 103.27652083502875,
+    "clipping_percent": 16.455798678927952,
+    "b40_exact_prediction": 188.4929485321045
+  },
+  "sampling": {
+    "roi_shape": "828x312",
+    "down_shape": "207x78",
+    "nearest_mae": 33.75440769643668,
+    "area_mae": 25.76070182501342,
+    "nearest_down_shape": [
+      78,
+      207,
+      3
+    ],
+    "area_down_shape": [
+      78,
+      207,
+      3
+    ]
+  },
+  "thresholds": {
+    "rgb_low": [
+      185,
+      130,
+      0
+    ],
+    "rgb_high": [
+      255,
+      255,
+      105
+    ],
+    "hsv_low": [
+      14,
+      100,
+      70
+    ],
+    "hsv_high": [
+      38,
+      255,
+      255
+    ]
+  },
+  "predictions_before_experiments": {
+    "H1": "Uc gorselde boyut ve uint8 tipi ayni kalacak; ayni (x,y) noktasinin RGB degerleri isikla degisecek.",
+    "H2": "Golgede sabit RGB maskesi belirgin daralacak; HSV daha cok hedef pikselleri koruyacak. Lambada sari not da secilebilir.",
+    "H3_b40": "Ilk kaba tahmin: ortalama tam +40 artacak (kliplemeyi ihmal eden tahmin).",
+    "H3_gamma05": "Gama 0,5 ortalamayi artiracak ve koyu alanlari acacak.",
+    "H3_gamma20": "Gama 2,0 ortalamayi azaltacak ve koyu alanlari koyultacak.",
+    "H4": "1/4 NEAREST ince cizgileri koparip sahte desen olusturacak; AREA tonlari ortalayip detaylari soluklastiracak."
+  },
+  "versions": {
+    "python": "3.13.5",
+    "opencv": "4.13.0",
+    "numpy": "2.3.5",
+    "pillow": "12.3.0"
+  },
+  "calibration_roi": {
+    "xyxy": [
+      670,
+      865,
+      890,
+      892
+    ],
+    "median_rgb": [
+      236.0,
+      186.0,
+      2.0
+    ],
+    "median_hsv": [
+      24.0,
+      253.0,
+      236.0
+    ]
+  }
+}

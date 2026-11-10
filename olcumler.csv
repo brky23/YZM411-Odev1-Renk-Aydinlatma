@@ -1,0 +1,20 @@
+﻿deney,kosul,yontem,deger,birim,aciklama
+renk_maskesi,normal,RGB,12.913577,yuzde,Secilen alan/goruntu alani
+renk_maskesi,normal,RGB,203113,piksel,Beyaz maske pikseli
+renk_maskesi,shadow,RGB,0.0,yuzde,Secilen alan/goruntu alani
+renk_maskesi,shadow,RGB,0,piksel,Beyaz maske pikseli
+renk_maskesi,lamp,RGB,27.419154,yuzde,Secilen alan/goruntu alani
+renk_maskesi,lamp,RGB,431266,piksel,Beyaz maske pikseli
+renk_maskesi,normal,HSV,23.077838,yuzde,Secilen alan/goruntu alani
+renk_maskesi,normal,HSV,362983,piksel,Beyaz maske pikseli
+renk_maskesi,shadow,HSV,14.075025,yuzde,Secilen alan/goruntu alani
+renk_maskesi,shadow,HSV,221381,piksel,Beyaz maske pikseli
+renk_maskesi,lamp,HSV,15.6449,yuzde,Secilen alan/goruntu alani
+renk_maskesi,lamp,HSV,246073,piksel,Beyaz maske pikseli
+donusum,normal_fotograf,normal,148.492949,0-255,Tum kanal ortalamasi
+donusum,normal_fotograf,b40,186.308676,0-255,Tum kanal ortalamasi
+donusum,normal_fotograf,g05,187.56836,0-255,Tum kanal ortalamasi
+donusum,normal_fotograf,g20,103.276521,0-255,Tum kanal ortalamasi
+donusum,normal_fotograf,clipping,16.455799,kanal_yuzdesi,I+40>255 olan kanallar
+ornekleme,yazi_doku_ROI,nearest,33.754408,MAE,Orijinal ile geri buyutulen arasindaki mutlak fark
+ornekleme,yazi_doku_ROI,area,25.760702,MAE,Orijinal ile geri buyutulen arasindaki mutlak fark
